@@ -1,0 +1,25 @@
+{
+    "name": "vyper",
+    "displayName": "vyper",
+    "description": "vyper language extension for vscode",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.30.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "vyper",
+            "aliases": ["Vyper", "vyper"],
+            "extensions": [".vy"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "vyper",
+            "scopeName": "",
+            "path": "./syntaxes/vyper.tmLanguage.json"
+        }]
+    }
+}
