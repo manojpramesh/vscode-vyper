@@ -18,7 +18,7 @@
         }],
         "grammars": [{
             "language": "vyper",
-            "scopeName": "",
+            "scopeName": "source.vyper",
             "path": "./syntaxes/vyper.tmLanguage.json"
         }]
     }
